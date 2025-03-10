@@ -19,7 +19,7 @@ public class Gravity : MonoBehaviour
     {
         seconds += Time.deltaTime;    
         
-        if (seconds > 30)
+        if (seconds > 30 && seconds < 40)
         {
             for (int i = 0; i < bricks.Length; i++)
             {
